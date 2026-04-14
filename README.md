@@ -1,4 +1,4 @@
+About
 
-## DO NOT COMMIT
-This directory is auto-generated from `@clerk/nextjs` because you are running in Keyless mode. Avoid committing the `.clerk/` directory as it includes the secret key of the unclaimed instance.
+FinTrack is a modern, AI-powered financial management application designed to help users track, analyze, and forecast their expenses with ease. It combines intelligent data processing with user-friendly design to provide deep insights into personal spending habits and financial health.
   
