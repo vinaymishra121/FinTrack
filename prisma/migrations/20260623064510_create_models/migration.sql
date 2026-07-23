@@ -13,7 +13,7 @@ CREATE TYPE "TransactionStatus" AS ENUM ('PENDING', 'COMPLETED', 'FAILED');
 -- CreateTable
 CREATE TABLE "users" (
     "id" TEXT NOT NULL,
-    "clerkUserID" TEXT NOT NULL,
+    "clerkUserId" TEXT NOT NULL,
     "email" TEXT NOT NULL,
     "name" TEXT,
     "imageUrl" TEXT,
@@ -72,7 +72,7 @@ CREATE TABLE "budgets" (
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "users_clerkUserID_key" ON "users"("clerkUserID");
+CREATE UNIQUE INDEX "users_clerkUserId_key" ON "users"("clerkUserId");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "users_email_key" ON "users"("email");
